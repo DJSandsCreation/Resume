@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  min-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#softSkills {
+  /* background-color: black; */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media(min-width:300px) {
+  body {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media(min-width:200px) {
+  body {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+
+@media(min-width:992px) {}
+
+@media(min-width:1200px) {}
